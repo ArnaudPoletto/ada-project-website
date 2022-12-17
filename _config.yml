@@ -1,9 +1,7 @@
 remote_theme: pages-themes/dinky@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: This video is sponsored by ADA! An analysis of sponsorships on YouTube
 description: A template website for ADA
-show_downloads: True
+show_downloads: False
 navigation:
   - title: Home
     url: /
