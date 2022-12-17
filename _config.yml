@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 title: This video is sponsored by ADA! An analysis of sponsorships on YouTube
 description: A template website for ADA
 show_downloads: True
-theme: minima
+theme: minimal
 navigation:
   - title: Home
     url: /
