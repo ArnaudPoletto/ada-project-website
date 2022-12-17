@@ -1,7 +1,128 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href= "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <script src="../assets/js/script.js"></script>
   </head>
   <body>
+    <div class="video">
+      <div class="video-content">
+        <div class="video-title">This Video is Sponsored by ADA! An Analysis of Sponsorships on YouTube</div>
+        <div class="video-play" onclick="playVideo()"><i class="bi bi-play-fill"></i></div>
+        <div class="video-click-msg">Click to play!</div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <h2>Introduction</h2>
+
+      <p>
+        With the rise of YouTube since 2005, content creators rose to fame with an expanding follower base. Businesses saw this as an opportunity to sponsor their content, exploring marketing potential with creators. Nowadays, sponsorships are a common practice on the platform, with many YouTubers making a living off of them.
+      </p>
+
+      <h2>Ad-dressing the Issue</h2>
+
+      <p class="comment">
+        « F**k off with the annoying ads jeez, people are getting head cancer from this s**t. You s**k! »
+        <div class="comment-name">- YouTube comment</div>
+      </p>
+
+      <p>
+        Sponsorships and ads on YouTube have been a topic of debate among content creators, viewers, and industry experts. Some content creators rely on sponsorships and ads as a primary source of income, but some viewers find them disruptive and annoying.
+      </p>
+
+      <h2> What are we looking for? </h2>
+
+      <p>
+        In this data story, we will navigate the YouTube Ad landscape: we suspect that some types of videos might be more likely to be sponsored than others. For example, the Gaming industry is known to be a lucrative market for advertisers, but is it the only one? 
+      </p>
+      <p>
+        From our own user experience, we already have a list of sponsors in mind that we might encounter in our analysis. But are they really the most common ones? Or are we naturally targetted by them because of our own interests? We hope to get a better understanding of the YouTube Ad landscape by analysing the data.
+      </p>
+      <p>
+        Finally, we will try to summarize our findings to answer the question: Do sponsorships help content creators build a stronger community, or do they actually have some downsides?
+      </p>
+
+      <p> Without further ad-o, let's dive in the data! </p>
+
+      <br/><br/>
+      <hr/>
+      <br/><br/>
+
+      <h2> Who sponsors what? </h2>
+
+      <p>
+        Classifying sponsored videos is not a trivial task. We retrieved all the links from the video descriptions and classified the 1000 most common domains (by hand!) into a category and flagged them as sponsor-related or not.
+      </p>
+
+      <img src="../assets/img/s_ns_ratio.png" alt="s_ns_ratio_png" width="46%" height="auto" />
+      <img src="../assets/img/w_s_np_ratio.png" alt="w_s_np_ratio_png" width="53%" height="auto" />
+
+      <p>
+        From these graphs, we notice that about a quarter of domains that come up in our analysis are sponsor-related, which represents more than two-thirds of the total number of videos on YouTube!
+      </p>
+
+      <img src="../assets/img/top_10.png" alt="s_ns_ratio_png" width="100%" height="auto" />
+
+      <p>
+        Every bar plot is related to the pie chart above itself. We notice that the sponsored domains and non-sponsored domains do not have the same distribution of categories. About half of sponsored domains are related to shops, agencies and video games. On the other hand, Media and Music are very popular among non-sponsored domains!
+      </p>
+
+      <img src="../assets/img/top_10_w.png" alt="s_ns_ratio_png" width="100%" height="auto" />
+
+      <p>
+        Taking a look at the data from another perspective, we now see the distribution of categories on videos. Before diving into the data, we did not expected sponsoring agencies to be so popular. But looking at the above pie chart, we see that more than a third of sponsored videos are sponsored by agencies!
+      </p>
+
+      <h2> Agen-who?</h2>
+
+      <p>
+        Agencies for monetization on YouTube are companies or organizations that help YouTube creators monetize their content, typically by connecting them with brands or advertizers who are interested in promoting their products or services. YouTubers generally choose an agency that aligns with their interests, goals and needs as creators.
+      </p>
+
+      <img src="../assets/img/agencies.png" alt="s_ns_ratio_png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+      
+        <p>
+          This pie chart shows the top ten agencies that sponsor videos on YouTube. <i>rewardStyle</i>, <i>Po.st</i> and <i>Teespring</i> make up the top three, sponsoring more than 50% of all videos sponsored by agencies together!
+        </p>
+
+        <p>
+          <i>Full disclosure</i>: we are sponsored by (n)one of them!
+        </p>
+
+    </div>
+
+    <div class="end-video">
+      <div class="video-content">
+        center row
+        <div class="row w-100">
+          <div class="col-6">
+            <div class="subvideo">
+              <div class="subvideo-img">
+              </div>
+              <div class="subvideo-title">TITLE 2</div>
+            </div>
+        </div>
+        <div class="col-6">
+          <div class="subvideo">
+            <div class="subvideo-img">
+            </div>
+            <div class="subvideo-title">TITLE 1</div>
+          </div>
+        <div class="end-video-replay" onclick="replayVideo()"><i class="bi bi-arrow-counterclockwise"></i></div>
+        <div class="end-video-click-msg">Replay!</div>
+      </div>
+    </div>
+
+    <!-- Time bar -->
+    <div id="time-bar-empty"></div>
+    <div id="time-bar-full"></div>
+    <div id="time-dot"></div>
   </body>
 </html>
