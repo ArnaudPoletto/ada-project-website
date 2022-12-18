@@ -59,6 +59,8 @@
     <script src="../plugins/sigma.parsers.gexf/sigma.parsers.gexf.js"></script>
     <!-- Java Script -->
     <script src="../assets/js/script.js"></script>
+    <!-- Ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="video">
@@ -157,47 +159,63 @@
         <i>Explore this interactive network!</i>
       </p>
 
-      <div id="graph-container-ss"></div>
+      <div class="row">
+        <button id="btn-ss" class="btn btn-secondary" onclick="nextGraphState()">STATE</button>
+      </div>
+
+      <div id="graph-container">
+        <div id="graph-container-ss"></div>
+        <div id="graph-container-bece"></div>
+        <div id="graph-container-clce"></div>
+        <div id="graph-container-clco"></div>
+        <div id="graph-container-mocl"></div>
+      </div>
 
       <!-- Network legend -->
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <i class="bi bi-circle-fill" style="color:#DADB1E"></i> Video Game
         </div>
-        <div class="col-6">
+        <div class="col-8">
           <i class="bi bi-circle-fill" style="color:#72DE38"></i> Agency
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <i class="bi bi-circle-fill" style="color:#E0792F"></i> Technology
         </div>
-        <div class="col-6">
+        <div class="col-8">
           <i class="bi bi-circle-fill" style="color:#00BD94"></i> Education
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <i class="bi bi-circle-fill" style="color:#E03ABC"></i> Music
         </div>
-        <div class="col-6">
+        <div class="col-8">
           <i class="bi bi-circle-fill" style="color:#39AADE"></i> Shop
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <i class="bi bi-circle-fill" style="color:#9100E0"></i> Fashion
         </div>
-        <div class="col-6">
+        <div class="col-4">
           <i class="bi bi-circle-fill" style="color:#2500E0"></i> Beauty
+        </div>
+        <div class="col-4">
+          <i class="bi bi-circle-fill" style="color:#18c315"></i> High
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <i class="bi bi-circle-fill" style="color:#E6C2FF"></i> Application
         </div>
-        <div class="col-6">
+        <div class="col-4">
           <i class="bi bi-circle-fill" style="color:#C0C0C0"></i> Others
+        </div>
+        <div class="col-4">
+          <i class="bi bi-circle-fill" style="color:#e70064"></i> Low
         </div>
       </div>
 

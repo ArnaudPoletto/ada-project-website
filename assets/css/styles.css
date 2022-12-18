@@ -159,7 +159,33 @@ html, body {
   height: 500px
 }
 
-#graph-container-vs {
+#graph-container-bece {
   width: 100%;
   height: 500px
+}
+
+#graph-container-clce {
+  width: 100%;
+  height: 500px
+}
+
+#graph-container-clco {
+  width: 100%;
+  height: 500px
+}
+
+#graph-container-mocl {
+  width: 100%;
+  height: 500px
+}
+
+#btn-ss {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
