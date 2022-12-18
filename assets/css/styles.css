@@ -153,3 +153,13 @@ html, body {
   text-align: right;
   font-style: italic;
 }
+
+#graph-container-ss {
+  width: 100%;
+  height: 500px
+}
+
+#graph-container-vs {
+  width: 100%;
+  height: 500px
+}

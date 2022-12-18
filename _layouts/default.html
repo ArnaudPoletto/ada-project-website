@@ -7,6 +7,57 @@
     <link rel="stylesheet" href= "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
     <!-- Bootstrap Font Icon CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- START SIGMA IMPORTS -->
+    <script src="../src/sigma.core.js"></script>
+    <script src="../src/conrad.js"></script>
+    <script src="../src/utils/sigma.utils.js"></script>
+    <script src="../src/utils/sigma.polyfills.js"></script>
+    <script src="../src/sigma.settings.js"></script>
+    <script src="../src/classes/sigma.classes.dispatcher.js"></script>
+    <script src="../src/classes/sigma.classes.configurable.js"></script>
+    <script src="../src/classes/sigma.classes.graph.js"></script>
+    <script src="../src/classes/sigma.classes.camera.js"></script>
+    <script src="../src/classes/sigma.classes.quad.js"></script>
+    <script src="../src/classes/sigma.classes.edgequad.js"></script>
+    <script src="../src/captors/sigma.captors.mouse.js"></script>
+    <script src="../src/captors/sigma.captors.touch.js"></script>
+    <script src="../src/renderers/sigma.renderers.canvas.js"></script>
+    <script src="../src/renderers/sigma.renderers.webgl.js"></script>
+    <script src="../src/renderers/sigma.renderers.svg.js"></script>
+    <script src="../src/renderers/sigma.renderers.def.js"></script>
+    <script src="../src/renderers/webgl/sigma.webgl.nodes.def.js"></script>
+    <script src="../src/renderers/webgl/sigma.webgl.nodes.fast.js"></script>
+    <script src="../src/renderers/webgl/sigma.webgl.edges.def.js"></script>
+    <script src="../src/renderers/webgl/sigma.webgl.edges.fast.js"></script>
+    <script src="../src/renderers/webgl/sigma.webgl.edges.arrow.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.labels.def.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.hovers.def.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.nodes.def.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.edges.def.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.edges.curve.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.edges.arrow.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.edges.curvedArrow.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.edgehovers.def.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.edgehovers.curve.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.edgehovers.arrow.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.edgehovers.curvedArrow.js"></script>
+    <script src="../src/renderers/canvas/sigma.canvas.extremities.def.js"></script>
+    <script src="../src/renderers/svg/sigma.svg.utils.js"></script>
+    <script src="../src/renderers/svg/sigma.svg.nodes.def.js"></script>
+    <script src="../src/renderers/svg/sigma.svg.edges.def.js"></script>
+    <script src="../src/renderers/svg/sigma.svg.edges.curve.js"></script>
+    <script src="../src/renderers/svg/sigma.svg.labels.def.js"></script>
+    <script src="../src/renderers/svg/sigma.svg.hovers.def.js"></script>
+    <script src="../src/middlewares/sigma.middlewares.rescale.js"></script>
+    <script src="../src/middlewares/sigma.middlewares.copy.js"></script>
+    <script src="../src/misc/sigma.misc.animation.js"></script>
+    <script src="../src/misc/sigma.misc.bindEvents.js"></script>
+    <script src="../src/misc/sigma.misc.bindDOMEvents.js"></script>
+    <script src="../src/misc/sigma.misc.drawHovers.js"></script>
+    <!-- END SIGMA IMPORTS -->
+    <script src="../plugins/sigma.parsers.gexf/gexf-parser.js"></script>
+    <script src="../plugins/sigma.parsers.gexf/sigma.parsers.gexf.js"></script>
+    <!-- Java Script -->
     <script src="../assets/js/script.js"></script>
   </head>
   <body>
@@ -26,7 +77,7 @@
         With the rise of YouTube since 2005, content creators rose to fame with an expanding follower base. Businesses saw this as an opportunity to sponsor their content, exploring marketing potential with creators. Nowadays, sponsorships are a common practice on the platform, with many YouTubers making a living off of them.
       </p>
 
-      <h2>Ad-dressing the Issue</h2>
+      <h2>Ad-dressing the issue</h2>
 
       <p class="comment">
         « F**k off with the annoying ads jeez, people are getting head cancer from this s**t. You s**k! »
@@ -88,14 +139,77 @@
 
       <img src="../assets/img/agencies.png" alt="s_ns_ratio_png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
       
-        <p>
-          This pie chart shows the top ten agencies that sponsor videos on YouTube. <i>rewardStyle</i>, <i>Po.st</i> and <i>Teespring</i> make up the top three, sponsoring more than 50% of all videos sponsored by agencies together.
-        </p>
+      <p>
+        This pie chart shows the top ten agencies that sponsor videos on YouTube. <i>rewardStyle</i>, <i>Po.st</i> and <i>Teespring</i> make up the top three, sponsoring more than 50% of all videos sponsored by agencies together.
+      </p>
 
-        <p>
-          <i>Full disclosure</i>: we are sponsored by (n)one of them!
-        </p>
+      <p>
+        <i>Full disclosure</i>: we are sponsored by (n)one of them!
+      </p>
 
+      <h2>Connecting the Dots</h2>
+
+      <p>
+        The below network represents sponsors co-occurring together in videos. Using Force Atlas to layout the graph, we see that the graph is dense and clusters are visible. Specifically, <i>play.google.com</i> and <i>apps.apple.com</i> are closely related and located in the center of the graph, indicating that they sponsor a diverse range of videos. Additionally, we observe that agencies are omnipresent in the data, sponsoring and targeting a broad range of videos.
+      </p>
+
+      <p>
+        <i>Explore this interactive network!</i>
+      </p>
+
+      <div id="graph-container-ss"></div>
+
+      <!-- Network legend -->
+      <div class="row">
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#DADB1E"></i> Video Game
+        </div>
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#72DE38"></i> Agency
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#E0792F"></i> Technology
+        </div>
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#00BD94"></i> Education
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#E03ABC"></i> Music
+        </div>
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#39AADE"></i> Shop
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#9100E0"></i> Fashion
+        </div>
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#2500E0"></i> Beauty
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#E6C2FF"></i> Application
+        </div>
+        <div class="col-6">
+          <i class="bi bi-circle-fill" style="color:#C0C0C0"></i> Others
+        </div>
+      </div>
+
+      <br/>
+
+      <p>
+        Upon closer examination, we can identify two main clusters in the graph. The larger cluster contains sponsors related to video games, technology, and applications, while a smaller cluster contain sponsors related to beauty and fashion. This suggests that tech-related and fashion-related videos tend to form different communities on YouTube. We also observe that shops, such as <i>aliexpress.com</i> and <i>bangood.com</i>, are located on the outer part of the graph, possibly indicating that they target a broader audience rather than a specific community.
+      </p>
+
+      <p>
+        Overall, this network provides insights into the relationships between sponsors on YouTube and the communities they target. By understanding these relationships, we can better understand the sponsorship landscape on the platform.
+      </p>
     </div>
 
     <div class="end-video">
