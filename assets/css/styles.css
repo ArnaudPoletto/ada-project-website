@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   font-size: 120%;
+  scroll-behavior: auto !important;
 }
 
 .video {
@@ -27,13 +28,13 @@ html, body {
     font-size: 3rem;
     margin-bottom: 0.5rem;
     position: absolute;
-    top:20px;
-    left:20px;
+    top: 20px;
+    left: 20px;
 }
 
 .video-play {
   color: rgba(255, 255, 255, 1);
-  font-size: 15rem;
+  font-size: 10rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
@@ -52,7 +53,7 @@ html, body {
 .video-click-msg {
     color: rgba(255, 255, 255, 1);
     font-size: 1rem;
-    margin-top: -5rem;
+    margin-top: -3rem;
 }
 
 .video-description {
@@ -67,9 +68,21 @@ html, body {
   background: rgba(0, 0, 0, 1);
 }
 
+.end-video-content {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .end-video-replay {
   color: rgba(255, 255, 255, 1);
-  font-size: 5rem;
+  font-size: 8rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
