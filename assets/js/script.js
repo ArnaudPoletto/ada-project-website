@@ -31,13 +31,12 @@ for (var i = 0; i < TOTAL_GRAPH_STATES; i++) {
     sigma.parsers.gexf(GRAPH_STATE_FILES[i], {
         container: 'graph-container-' + GRAPH_STATES[i]
     });
-    
 }
 
 // EVENTS
 
 window.onload = function() {
-    window.scroll(0, 0);
+    //window.scroll(0, 0);
 
     waitForElement("#graph-container-ss", function() {
         waitForElement("#graph-container-bece", function() {
