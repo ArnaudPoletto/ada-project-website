@@ -17,11 +17,11 @@ var GRAPHE_STATE_NAMES = [
     "Modularity class"
 ];
 var GRAPH_STATE_FILES = [
-    "./assets/img/ss_network.gexf",
-    "./assets/img/ss_network_betweeness_centrality.gexf",
-    "./assets/img/ss_network_closeness_centrality.gexf",
-    "./assets/img/ss_network_clustering_coefficient.gexf",
-    "./assets/img/ss_network_modularity_class.gexf"
+    "../assets/img/ss_network.gexf",
+    "../assets/img/ss_network_betweeness_centrality.gexf",
+    "../assets/img/ss_network_closeness_centrality.gexf",
+    "../assets/img/ss_network_clustering_coefficient.gexf",
+    "../assets/img/ss_network_modularity_class.gexf"
 ]
 var graph_state = 0;
 
