@@ -2,31 +2,37 @@ var started_video = false;
 var ended_video = false;
 
 var TOTAL_GRAPH_STATES = 5;
-var GRAPH_STATES = ["ss", "bece", "clce", "clco", "mocl"];
-var GRAPHE_STATE_NAMES = ["Sponsor categories", "Betweeness centrality", "Closeness centrality", "Clustering coefficient", "Modularity class"];
+var GRAPH_STATES = [
+    "ss", 
+    "bece", 
+    "clce", 
+    "clco", 
+    "mocl"
+];
+var GRAPHE_STATE_NAMES = [
+    "Sponsor categories", 
+    "Betweeness centrality", 
+    "Closeness centrality", 
+    "Clustering coefficient", 
+    "Modularity class"
+];
+var GRAPH_STATE_FILES = [
+    "../assets/img/ss_network.gexf",
+    "../assets/img/ss_network_betweeness_centrality.gexf",
+    "../assets/img/ss_network_closeness_centrality.gexf",
+    "../assets/img/ss_network_clustering_coefficient.gexf",
+    "../assets/img/ss_network_modularity_class.gexf"
+]
 var graph_state = 0;
 
 // GRAPHS
 
-sigma.parsers.gexf('../assets/img/ss_network.gexf', {
-    container: 'graph-container-ss'
-});
-
-sigma.parsers.gexf('../assets/img/ss_network_betweeness_centrality.gexf', {
-    container: 'graph-container-bece'
-});
-
-sigma.parsers.gexf('../assets/img/ss_network_closeness_centrality.gexf', {
-    container: 'graph-container-clce'
-});
-
-sigma.parsers.gexf('../assets/img/ss_network_clustering_coefficient.gexf', {
-    container: 'graph-container-clco'
-});
-
-sigma.parsers.gexf('../assets/img/ss_network_modularity_class.gexf', {
-    container: 'graph-container-mocl'
-});
+for (var i = 0; i < TOTAL_GRAPH_STATES; i++) {
+    sigma.parsers.gexf(GRAPH_STATE_FILES[i], {
+        container: 'graph-container-' + GRAPH_STATES[i]
+    });
+    
+}
 
 // EVENTS
 
@@ -98,6 +104,7 @@ function setGraphState(state) {
     for (var i = 0; i < TOTAL_GRAPH_STATES; i++) {
         document.getElementById("graph-container-" + GRAPH_STATES[i]).style.display = "none";
     }
+    // LOAD ELEMENT
     document.getElementById("graph-container-" + GRAPH_STATES[state]).style.display = "block";
     document.getElementById("btn-ss").innerHTML = GRAPHE_STATE_NAMES[state];
 }

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2022-12-18">
+  <meta lastmodifieddate="2022-12-19">
     <creator>Gephi 0.9.3</creator>
     <description></description>
   </meta>
@@ -75,7 +75,7 @@
         </attvalues>
         <viz:size value="249.02368"/>
         <viz:position x="938.96466" y="-7948.5186"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="226" g="133" b="191"/>
       </node>
       <node id="shareasale.com">
         <attvalues>
@@ -98,7 +98,7 @@
         </attvalues>
         <viz:size value="349.41418"/>
         <viz:position x="4612.147" y="-4752.0933"/>
-        <viz:color r="238" g="198" b="222"/>
+        <viz:color r="164" g="210" b="145"/>
       </node>
       <node id="tubebuddy.com">
         <attvalues>
@@ -121,7 +121,7 @@
         </attvalues>
         <viz:size value="334.65088"/>
         <viz:position x="-1052.874" y="694.6268"/>
-        <viz:color r="226" g="134" b="191"/>
+        <viz:color r="219" g="235" b="213"/>
       </node>
       <node id="erincondren.com">
         <attvalues>
@@ -144,7 +144,7 @@
         </attvalues>
         <viz:size value="210.63905"/>
         <viz:position x="6593.199" y="-3736.2546"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="218" g="88" b="168"/>
       </node>
       <node id="seph.me">
         <attvalues>
@@ -167,7 +167,7 @@
         </attvalues>
         <viz:size value="200.30473"/>
         <viz:position x="13793.523" y="-9543.616"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="214" g="63" b="156"/>
       </node>
       <node id="ulta.com">
         <attvalues>
@@ -190,7 +190,7 @@
         </attvalues>
         <viz:size value="238.68935"/>
         <viz:position x="15212.958" y="-7684.051"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="220" g="100" b="174"/>
       </node>
       <node id="noscopeglasses.com">
         <attvalues>
@@ -259,7 +259,7 @@
         </attvalues>
         <viz:size value="135.34616"/>
         <viz:position x="-6299.287" y="-2152.7754"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="208" g="32" b="141"/>
       </node>
       <node id="medium.com">
         <attvalues>
@@ -305,7 +305,7 @@
         </attvalues>
         <viz:size value="296.26627"/>
         <viz:position x="9001.04" y="-4872.202"/>
-        <viz:color r="230" g="154" b="201"/>
+        <viz:color r="202" g="227" b="192"/>
       </node>
       <node id="fr.shopping.rakuten.com">
         <attvalues>
@@ -328,7 +328,7 @@
         </attvalues>
         <viz:size value="247.54733"/>
         <viz:position x="8609.903" y="-7509.152"/>
-        <viz:color r="208" g="31" b="140"/>
+        <viz:color r="231" g="159" b="203"/>
       </node>
       <node id="teespring.com">
         <attvalues>
@@ -374,7 +374,7 @@
         </attvalues>
         <viz:size value="266.73965"/>
         <viz:position x="-5450.8135" y="-9783.922"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="215" g="68" b="158"/>
       </node>
       <node id="ebates.com">
         <attvalues>
@@ -397,7 +397,7 @@
         </attvalues>
         <viz:size value="309.55325"/>
         <viz:position x="6935.9355" y="-5785.699"/>
-        <viz:color r="220" g="96" b="172"/>
+        <viz:color r="245" g="237" b="242"/>
       </node>
       <node id="m.freemyapps.com">
         <attvalues>
@@ -466,7 +466,7 @@
         </attvalues>
         <viz:size value="163.39644"/>
         <viz:position x="-2330.6626" y="-6248.892"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="221" g="104" b="176"/>
       </node>
       <node id="bhpho.to">
         <attvalues>
@@ -489,7 +489,7 @@
         </attvalues>
         <viz:size value="213.5917"/>
         <viz:position x="2793.3289" y="11626.945"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="215" g="72" b="160"/>
       </node>
       <node id="intotheam.com">
         <attvalues>
@@ -604,7 +604,7 @@
         </attvalues>
         <viz:size value="238.68935"/>
         <viz:position x="9112.956" y="-6153.608"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="218" g="88" b="168"/>
       </node>
       <node id="tidd.ly">
         <attvalues>
@@ -627,7 +627,7 @@
         </attvalues>
         <viz:size value="218.02072"/>
         <viz:position x="9335.211" y="477.45102"/>
-        <viz:color r="218" g="86" b="167"/>
+        <viz:color r="243" g="225" b="236"/>
       </node>
       <node id="boots.com">
         <attvalues>
@@ -696,7 +696,7 @@
         </attvalues>
         <viz:size value="262.31067"/>
         <viz:position x="8090.1094" y="-3837.7368"/>
-        <viz:color r="215" g="68" b="159"/>
+        <viz:color r="239" g="204" b="225"/>
       </node>
       <node id="scufgaming.com">
         <attvalues>
@@ -719,7 +719,7 @@
         </attvalues>
         <viz:size value="135.34616"/>
         <viz:position x="-457.7828" y="6675.445"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="223" g="112" b="180"/>
       </node>
       <node id="originpc.com">
         <attvalues>
@@ -742,7 +742,7 @@
         </attvalues>
         <viz:size value="104.34319"/>
         <viz:position x="-3837.9666" y="5692.021"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="208" g="30" b="140"/>
       </node>
       <node id="anrdoezrs.net">
         <attvalues>
@@ -811,7 +811,7 @@
         </attvalues>
         <viz:size value="241.64201"/>
         <viz:position x="-2234.4004" y="6718.966"/>
-        <viz:color r="220" g="96" b="172"/>
+        <viz:color r="245" g="237" b="242"/>
       </node>
       <node id="hive.co">
         <attvalues>
@@ -834,7 +834,7 @@
         </attvalues>
         <viz:size value="178.15976"/>
         <viz:position x="-11942.798" y="11272.661"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="227" g="139" b="193"/>
       </node>
       <node id="fiverr.com">
         <attvalues>
@@ -857,7 +857,7 @@
         </attvalues>
         <viz:size value="231.3077"/>
         <viz:position x="-10282.468" y="-2472.3787"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="219" g="95" b="172"/>
       </node>
       <node id="streamlabs.com">
         <attvalues>
@@ -926,7 +926,7 @@
         </attvalues>
         <viz:size value="322.84024"/>
         <viz:position x="2381.2107" y="-4288.1777"/>
-        <viz:color r="211" g="46" b="148"/>
+        <viz:color r="234" g="177" b="212"/>
       </node>
       <node id="robertsspaceindustries.com">
         <attvalues>
@@ -972,7 +972,7 @@
         </attvalues>
         <viz:size value="189.97041"/>
         <viz:position x="7170.48" y="-7887.203"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="224" g="120" b="184"/>
       </node>
       <node id="fanlink.to">
         <attvalues>
@@ -1018,7 +1018,7 @@
         </attvalues>
         <viz:size value="132.3935"/>
         <viz:position x="-12433.175" y="-6555.8887"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="219" g="90" b="169"/>
       </node>
       <node id="play-asia.com">
         <attvalues>
@@ -1087,7 +1087,7 @@
         </attvalues>
         <viz:size value="271.16864"/>
         <viz:position x="-282.6092" y="3392.2563"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="209" g="34" b="142"/>
       </node>
       <node id="fbuy.me">
         <attvalues>
@@ -1110,7 +1110,7 @@
         </attvalues>
         <viz:size value="201.78107"/>
         <viz:position x="9436.997" y="-1408.5803"/>
-        <viz:color r="209" g="38" b="144"/>
+        <viz:color r="233" g="168" b="208"/>
       </node>
       <node id="makeupgeek.com">
         <attvalues>
@@ -1133,7 +1133,7 @@
         </attvalues>
         <viz:size value="188.49408"/>
         <viz:position x="10483.487" y="-6092.1636"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="229" g="147" b="197"/>
       </node>
       <node id="thmatc.co">
         <attvalues>
@@ -1156,7 +1156,7 @@
         </attvalues>
         <viz:size value="191.44675"/>
         <viz:position x="6678.823" y="-13774.833"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="228" g="141" b="195"/>
       </node>
       <node id="morphebrushes.com">
         <attvalues>
@@ -1179,7 +1179,7 @@
         </attvalues>
         <viz:size value="200.30473"/>
         <viz:position x="12137.092" y="-7340.367"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="216" g="76" b="163" a="0.99607843"/>
       </node>
       <node id="epidemicsound.com)">
         <attvalues>
@@ -1202,7 +1202,7 @@
         </attvalues>
         <viz:size value="249.02368"/>
         <viz:position x="7418.4067" y="5259.657"/>
-        <viz:color r="213" g="60" b="154"/>
+        <viz:color r="237" g="194" b="220"/>
       </node>
       <node id="ikea.com">
         <attvalues>
@@ -1225,7 +1225,7 @@
         </attvalues>
         <viz:size value="259.35797"/>
         <viz:position x="15448.211" y="7423.203"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="229" g="150" b="199"/>
       </node>
       <node id="greenmangaming.com">
         <attvalues>
@@ -1248,7 +1248,7 @@
         </attvalues>
         <viz:size value="136.82248"/>
         <viz:position x="-5492.262" y="3913.7097"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="222" g="109" b="179"/>
       </node>
       <node id="apps.apple.com">
         <attvalues>
@@ -1317,7 +1317,7 @@
         </attvalues>
         <viz:size value="133.86983"/>
         <viz:position x="-4474.249" y="-5597.695"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="217" g="79" b="164"/>
       </node>
       <node id="kit.com">
         <attvalues>
@@ -1340,7 +1340,7 @@
         </attvalues>
         <viz:size value="172.25444"/>
         <viz:position x="-8245.402" y="8365.402"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="225" g="128" b="188"/>
       </node>
       <node id="gleam.io">
         <attvalues>
@@ -1363,7 +1363,7 @@
         </attvalues>
         <viz:size value="429.1361"/>
         <viz:position x="-3826.8032" y="10314.542"/>
-        <viz:color r="230" g="239" b="227"/>
+        <viz:color r="106" g="184" b="74"/>
       </node>
       <node id="hautelook.com">
         <attvalues>
@@ -1386,7 +1386,7 @@
         </attvalues>
         <viz:size value="187.01775"/>
         <viz:position x="7953.5674" y="-6488.797"/>
-        <viz:color r="210" g="41" b="145"/>
+        <viz:color r="233" g="171" b="209"/>
       </node>
       <node id="play.google.com">
         <attvalues>
@@ -1409,7 +1409,7 @@
         </attvalues>
         <viz:size value="500.0"/>
         <viz:position x="-3481.8313" y="1295.1881"/>
-        <viz:color r="234" g="175" b="211"/>
+        <viz:color r="184" g="219" b="169"/>
       </node>
       <node id="wp.me">
         <attvalues>
@@ -1432,7 +1432,7 @@
         </attvalues>
         <viz:size value="247.54733"/>
         <viz:position x="-2793.0737" y="-10134.519"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="213" g="59" b="154"/>
       </node>
       <node id="strava.com">
         <attvalues>
@@ -1455,7 +1455,7 @@
         </attvalues>
         <viz:size value="92.53255"/>
         <viz:position x="1829.6783" y="1584.2064"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="216" g="74" b="162"/>
       </node>
       <node id="artlist.io">
         <attvalues>
@@ -1478,7 +1478,7 @@
         </attvalues>
         <viz:size value="139.77515"/>
         <viz:position x="3865.7803" y="9728.29"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="212" g="53" b="151"/>
       </node>
       <node id="zaful.com">
         <attvalues>
@@ -1501,7 +1501,7 @@
         </attvalues>
         <viz:size value="181.11243"/>
         <viz:position x="-1462.6831" y="-16623.35"/>
-        <viz:color r="211" g="49" b="149"/>
+        <viz:color r="235" g="180" b="214"/>
       </node>
       <node id="ibotta.com">
         <attvalues>
@@ -1524,7 +1524,7 @@
         </attvalues>
         <viz:size value="157.49113"/>
         <viz:position x="5090.03" y="-3611.9343"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="216" g="74" b="162"/>
       </node>
       <node id="audibletrial.com">
         <attvalues>
@@ -1547,7 +1547,7 @@
         </attvalues>
         <viz:size value="251.97633"/>
         <viz:position x="2343.71" y="-9304.916"/>
-        <viz:color r="215" g="68" b="159"/>
+        <viz:color r="239" g="204" b="225"/>
       </node>
       <node id="poshmark.com">
         <attvalues>
@@ -1570,7 +1570,7 @@
         </attvalues>
         <viz:size value="206.21005"/>
         <viz:position x="5348.033" y="-6872.8887"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="213" g="59" b="154"/>
       </node>
       <node id="target.com">
         <attvalues>
@@ -1593,7 +1593,7 @@
         </attvalues>
         <viz:size value="223.92604"/>
         <viz:position x="16193.794" y="906.0998"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="229" g="147" b="197"/>
       </node>
       <node id="epicgames.com">
         <attvalues>
@@ -1639,7 +1639,7 @@
         </attvalues>
         <viz:size value="218.02072"/>
         <viz:position x="-4032.661" y="-14680.657"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="214" g="66" b="157"/>
       </node>
       <node id="sephora.com">
         <attvalues>
@@ -1662,7 +1662,7 @@
         </attvalues>
         <viz:size value="263.787"/>
         <viz:position x="15205.605" y="-6088.8496"/>
-        <viz:color r="208" g="29" b="139"/>
+        <viz:color r="230" g="156" b="202"/>
       </node>
       <node id="bornprettystore.com">
         <attvalues>
@@ -1685,7 +1685,7 @@
         </attvalues>
         <viz:size value="150.10947"/>
         <viz:position x="2985.1926" y="-12214.489"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="209" g="38" b="144"/>
       </node>
       <node id="qvc.co">
         <attvalues>
@@ -1731,7 +1731,7 @@
         </attvalues>
         <viz:size value="147.1568"/>
         <viz:position x="-13258.84" y="4538.086"/>
-        <viz:color r="212" g="51" b="150"/>
+        <viz:color r="235" g="184" b="216"/>
       </node>
       <node id="skl.sh">
         <attvalues>
@@ -1754,7 +1754,7 @@
         </attvalues>
         <viz:size value="238.68935"/>
         <viz:position x="-11832.426" y="-4806.9297"/>
-        <viz:color r="227" g="138" b="193"/>
+        <viz:color r="216" g="233" b="209"/>
       </node>
       <node id="etsy.com">
         <attvalues>
@@ -1800,7 +1800,7 @@
         </attvalues>
         <viz:size value="191.44675"/>
         <viz:position x="10571.933" y="-5180.554"/>
-        <viz:color r="209" g="38" b="144"/>
+        <viz:color r="233" g="168" b="208"/>
       </node>
       <node id="shop.spreadshirt.com">
         <attvalues>
@@ -1823,7 +1823,7 @@
         </attvalues>
         <viz:size value="150.10947"/>
         <viz:position x="2714.8965" y="8724.756"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="212" g="51" b="150"/>
       </node>
       <node id="hyperurl.co">
         <attvalues>
@@ -1846,7 +1846,7 @@
         </attvalues>
         <viz:size value="176.68344"/>
         <viz:position x="-14400.455" y="1420.1338"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="225" g="125" b="187" a="0.99607843"/>
       </node>
       <node id="g2a.com">
         <attvalues>
@@ -1869,7 +1869,7 @@
         </attvalues>
         <viz:size value="223.92604"/>
         <viz:position x="-1459.5144" y="6418.492"/>
-        <viz:color r="214" g="65" b="157"/>
+        <viz:color r="238" g="200" b="224"/>
       </node>
       <node id="bungie.net">
         <attvalues>
@@ -1915,7 +1915,7 @@
         </attvalues>
         <viz:size value="85.15089"/>
         <viz:position x="4851.9307" y="3936.8242"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="214" g="61" b="155"/>
       </node>
       <node id="click.linksynergy.com">
         <attvalues>
@@ -2007,7 +2007,7 @@
         </attvalues>
         <viz:size value="188.49408"/>
         <viz:position x="6474.352" y="-8995.177"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="212" g="51" b="150"/>
       </node>
       <node id="cafepress.com">
         <attvalues>
@@ -2053,7 +2053,7 @@
         </attvalues>
         <viz:size value="213.5917"/>
         <viz:position x="-7639.96" y="-4412.2544"/>
-        <viz:color r="214" g="62" b="156"/>
+        <viz:color r="238" g="197" b="222"/>
       </node>
       <node id="store.dftba.com">
         <attvalues>
@@ -2191,7 +2191,7 @@
         </attvalues>
         <viz:size value="222.4497"/>
         <viz:position x="9955.657" y="-9800.2"/>
-        <viz:color r="209" g="36" b="143" a="0.99607843"/>
+        <viz:color r="232" g="165" b="206"/>
       </node>
       <node id="beamng.com">
         <attvalues>
@@ -2237,7 +2237,7 @@
         </attvalues>
         <viz:size value="206.21005"/>
         <viz:position x="-5852.594" y="-5250.8228"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="223" g="117" b="183"/>
       </node>
       <node id="myapp.wips.com">
         <attvalues>
@@ -2283,7 +2283,7 @@
         </attvalues>
         <viz:size value="157.49113"/>
         <viz:position x="117.05133" y="-14446.832"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="229" g="147" b="197"/>
       </node>
       <node id="whiteninglightning.com">
         <attvalues>
@@ -2306,7 +2306,7 @@
         </attvalues>
         <viz:size value="167.82544"/>
         <viz:position x="8794.388" y="-8591.053"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="209" g="36" b="143"/>
       </node>
       <node id="e.lga.to">
         <attvalues>
@@ -2329,7 +2329,7 @@
         </attvalues>
         <viz:size value="192.92308"/>
         <viz:position x="-602.8603" y="5910.087"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="224" g="120" b="184"/>
       </node>
       <node id="fashionnova.com">
         <attvalues>
@@ -2352,7 +2352,7 @@
         </attvalues>
         <viz:size value="197.35207"/>
         <viz:position x="9175.082" y="-11681.64"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="220" g="100" b="174"/>
       </node>
       <node id="shopstyle.it">
         <attvalues>
@@ -2375,7 +2375,7 @@
         </attvalues>
         <viz:size value="197.35207"/>
         <viz:position x="12074.544" y="-2200.8943"/>
-        <viz:color r="209" g="36" b="143" a="0.99607843"/>
+        <viz:color r="232" g="165" b="206"/>
       </node>
       <node id="api.shopstyle.com">
         <attvalues>
@@ -2490,7 +2490,7 @@
         </attvalues>
         <viz:size value="173.73077"/>
         <viz:position x="-1049.5477" y="7051.2524"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="208" g="30" b="140"/>
       </node>
       <node id="chrono.gg">
         <attvalues>
@@ -2513,7 +2513,7 @@
         </attvalues>
         <viz:size value="105.81953"/>
         <viz:position x="-4560.4204" y="4512.7935"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="208" g="30" b="140"/>
       </node>
       <node id="player.me">
         <attvalues>
@@ -2559,7 +2559,7 @@
         </attvalues>
         <viz:size value="340.5562"/>
         <viz:position x="7111.4023" y="-4887.322"/>
-        <viz:color r="230" g="239" b="227"/>
+        <viz:color r="106" g="184" b="74"/>
       </node>
       <node id="redbubble.com">
         <attvalues>
@@ -2582,7 +2582,7 @@
         </attvalues>
         <viz:size value="296.26627"/>
         <viz:position x="-5274.62" y="6401.9775"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="227" g="139" b="193"/>
       </node>
       <node id="beatstars.com">
         <attvalues>
@@ -2651,7 +2651,7 @@
         </attvalues>
         <viz:size value="166.3491"/>
         <viz:position x="-469.5693" y="7119.8823"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="216" g="76" b="163" a="0.99607843"/>
       </node>
       <node id="ldli.co">
         <attvalues>
@@ -2697,7 +2697,7 @@
         </attvalues>
         <viz:size value="167.82544"/>
         <viz:position x="-8233.022" y="-2384.785"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="224" g="120" b="184"/>
       </node>
       <node id="humblebundle.com">
         <attvalues>
@@ -2720,7 +2720,7 @@
         </attvalues>
         <viz:size value="175.20709"/>
         <viz:position x="-5859.7104" y="4753.1753"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="209" g="38" b="144"/>
       </node>
       <node id="etsy.me">
         <attvalues>
@@ -2743,7 +2743,7 @@
         </attvalues>
         <viz:size value="232.78401"/>
         <viz:position x="178.09071" y="-10488.476"/>
-        <viz:color r="225" g="127" b="187"/>
+        <viz:color r="226" g="238" b="221"/>
       </node>
       <node id="bhphotovideo.com">
         <attvalues>
@@ -2766,7 +2766,7 @@
         </attvalues>
         <viz:size value="206.21005"/>
         <viz:position x="4592.8755" y="13598.785"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="228" g="141" b="195"/>
       </node>
       <node id="us.battle.net">
         <attvalues>
@@ -2812,7 +2812,7 @@
         </attvalues>
         <viz:size value="254.92899"/>
         <viz:position x="9795.743" y="-6910.25"/>
-        <viz:color r="209" g="34" b="141"/>
+        <viz:color r="231" g="162" b="205"/>
       </node>
       <node id="xbox.com">
         <attvalues>
@@ -2858,7 +2858,7 @@
         </attvalues>
         <viz:size value="207.68639"/>
         <viz:position x="13078.892" y="-5483.3984"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="225" g="125" b="187" a="0.99607843"/>
       </node>
       <node id="ipsy.com">
         <attvalues>
@@ -2904,7 +2904,7 @@
         </attvalues>
         <viz:size value="132.3935"/>
         <viz:position x="-10905.23" y="5983.833"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="209" g="38" b="144"/>
       </node>
       <node id="tipeeestream.com">
         <attvalues>
@@ -2973,7 +2973,7 @@
         </attvalues>
         <viz:size value="163.39644"/>
         <viz:position x="-8204.833" y="-10527.125"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="216" g="76" b="163" a="0.99607843"/>
       </node>
       <node id="spreaker.com">
         <attvalues>
@@ -3088,7 +3088,7 @@
         </attvalues>
         <viz:size value="260.83432"/>
         <viz:position x="-774.69824" y="9812.593"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="209" g="34" b="142"/>
       </node>
       <node id="featu.re">
         <attvalues>
@@ -3111,7 +3111,7 @@
         </attvalues>
         <viz:size value="114.67751"/>
         <viz:position x="6353.928" y="6925.7715"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="209" g="38" b="144"/>
       </node>
       <node id="kinguin.net">
         <attvalues>
@@ -3157,7 +3157,7 @@
         </attvalues>
         <viz:size value="160.44379"/>
         <viz:position x="3646.2988" y="-6364.544"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="208" g="32" b="141"/>
       </node>
       <node id="loots.com">
         <attvalues>
@@ -3226,7 +3226,7 @@
         </attvalues>
         <viz:size value="144.20413"/>
         <viz:position x="7238.295" y="-1324.9839"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="210" g="41" b="145"/>
       </node>
       <node id="fave.co">
         <attvalues>
@@ -3295,7 +3295,7 @@
         </attvalues>
         <viz:size value="206.21005"/>
         <viz:position x="10479.692" y="4160.915"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="215" g="68" b="158"/>
       </node>
       <node id="toneden.io">
         <attvalues>
@@ -3410,7 +3410,7 @@
         </attvalues>
         <viz:size value="195.87575"/>
         <viz:position x="-6669.8745" y="-13367.497"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="216" g="76" b="163" a="0.99607843"/>
       </node>
       <node id="link.clashroyale.com">
         <attvalues>
@@ -3456,7 +3456,7 @@
         </attvalues>
         <viz:size value="132.3935"/>
         <viz:position x="-9212.823" y="2679.8635"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="212" g="53" b="151"/>
       </node>
       <node id="irresistibleme.com">
         <attvalues>
@@ -3479,7 +3479,7 @@
         </attvalues>
         <viz:size value="156.01479"/>
         <viz:position x="7723.0273" y="-9329.548"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="228" g="144" b="196"/>
       </node>
       <node id="player.epidemicsound.com">
         <attvalues>
@@ -3502,7 +3502,7 @@
         </attvalues>
         <viz:size value="218.02072"/>
         <viz:position x="-2022.7258" y="9283.722"/>
-        <viz:color r="228" g="142" b="195"/>
+        <viz:color r="213" g="232" b="205"/>
       </node>
       <node id="binance.com">
         <attvalues>
@@ -3548,7 +3548,7 @@
         </attvalues>
         <viz:size value="119.106514"/>
         <viz:position x="-905.17413" y="-7203.6045"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="214" g="63" b="156"/>
       </node>
       <node id="society6.com">
         <attvalues>
@@ -3640,7 +3640,7 @@
         </attvalues>
         <viz:size value="237.21303"/>
         <viz:position x="-7007.022" y="-6621.752"/>
-        <viz:color r="228" g="142" b="195"/>
+        <viz:color r="213" g="232" b="205"/>
       </node>
       <node id="spinninrecords.com">
         <attvalues>
@@ -3686,7 +3686,7 @@
         </attvalues>
         <viz:size value="164.87279"/>
         <viz:position x="5812.821" y="8673.284"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="222" g="109" b="179"/>
       </node>
       <node id="bestpianomethod.com">
         <attvalues>
@@ -3801,7 +3801,7 @@
         </attvalues>
         <viz:size value="167.82544"/>
         <viz:position x="12806.481" y="-3337.1318"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="215" g="72" b="160"/>
       </node>
       <node id="astrogaming.com">
         <attvalues>
@@ -3847,7 +3847,7 @@
         </attvalues>
         <viz:size value="187.01775"/>
         <viz:position x="-8107.186" y="5983.745"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="226" g="130" b="189"/>
       </node>
       <node id="imojo.in">
         <attvalues>
@@ -3893,7 +3893,7 @@
         </attvalues>
         <viz:size value="88.103546"/>
         <viz:position x="3483.3008" y="3413.5303"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="217" g="83" b="166"/>
       </node>
       <node id="on.today.com">
         <attvalues>
@@ -3939,7 +3939,7 @@
         </attvalues>
         <viz:size value="185.54141"/>
         <viz:position x="-8999.239" y="-6678.6494"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="216" g="76" b="163" a="0.99607843"/>
       </node>
       <node id="instamojo.com">
         <attvalues>
@@ -4192,7 +4192,7 @@
         </attvalues>
         <viz:size value="91.05621"/>
         <viz:position x="1039.5078" y="6335.7944"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="212" g="53" b="151"/>
       </node>
       <node id="fas.st">
         <attvalues>
@@ -4376,7 +4376,7 @@
         </attvalues>
         <viz:size value="74.81657"/>
         <viz:position x="1159.3599" y="4064.8997"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="210" g="41" b="145"/>
       </node>
       <node id="prowrestlingtees.com">
         <attvalues>
@@ -4560,7 +4560,7 @@
         </attvalues>
         <viz:size value="61.529587"/>
         <viz:position x="3318.5376" y="-62.764187"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="208" g="32" b="141"/>
       </node>
       <node id="gab.ai">
         <attvalues>
@@ -4767,7 +4767,7 @@
         </attvalues>
         <viz:size value="79.24557"/>
         <viz:position x="-7669.5015" y="1402.2596"/>
-        <viz:color r="208" g="28" b="139"/>
+        <viz:color r="209" g="34" b="142"/>
       </node>
       <node id="audioboom.com">
         <attvalues>
