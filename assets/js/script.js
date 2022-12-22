@@ -36,7 +36,7 @@ for (var i = 0; i < TOTAL_GRAPH_STATES; i++) {
 // EVENTS
 
 window.onload = function() {
-    //window.scroll(0, 0);
+    window.scroll(0, 0);
 
     waitForElement("#graph-container-ss", function() {
         waitForElement("#graph-container-bece", function() {

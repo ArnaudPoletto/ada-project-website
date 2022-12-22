@@ -103,7 +103,7 @@ ul {
 
 #time-bar-full {
     position: fixed;
-    bottom: 25px;
+    bottom: 35px;
     left: 20px;
     width: 0%;
     height: 5px;
@@ -112,7 +112,7 @@ ul {
 
 #time-bar-empty {
     position: fixed;
-    bottom: 25px;
+    bottom: 35px;
     left: 20px;
     width: calc(100% - 40px);
     height: 5px;
@@ -121,7 +121,7 @@ ul {
 
 #time-dot {
     position: fixed;
-    bottom: 20px;
+    bottom: 30px;
     left: 20px;
     width: 15px;
     height: 15px;
