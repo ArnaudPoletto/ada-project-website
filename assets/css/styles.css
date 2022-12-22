@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   font-size: 120%;
 }
@@ -8,31 +9,31 @@ ul {
 }
 
 .video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: rgba(0, 0, 0, 1);
 }
 
 .video-content {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .video-title {
-    color: rgba(255, 255, 255, 1);
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-    position: absolute;
-    top: 20px;
-    left: 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .video-play {
@@ -54,14 +55,14 @@ ul {
 }
 
 .video-click-msg {
-    color: rgba(255, 255, 255, 1);
-    font-size: 1rem;
-    margin-top: -3rem;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  margin-top: -3rem;
 }
 
 .video-description {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .end-video {
@@ -102,33 +103,33 @@ ul {
 }
 
 #time-bar-full {
-    position: fixed;
-    bottom: 35px;
-    left: 20px;
-    width: 0%;
-    height: 5px;
-    background: rgba(255, 0, 0, 1);
+  position: fixed;
+  bottom: 35px;
+  left: 20px;
+  width: 0%;
+  height: 5px;
+  background: rgba(255, 0, 0, 1);
 }
 
 #time-bar-empty {
-    position: fixed;
-    bottom: 35px;
-    left: 20px;
-    width: calc(100% - 40px);
-    height: 5px;
-    background: rgba(150, 150, 150, 0.5)
+  position: fixed;
+  bottom: 35px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 5px;
+  background: rgba(150, 150, 150, 0.5)
 }
 
 #time-dot {
-    position: fixed;
-    bottom: 30px;
-    left: 20px;
-    width: 15px;
-    height: 15px;
-    background: rgba(255, 0, 0, 1);
-    border-radius: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  width: 15px;
+  height: 15px;
+  background: rgba(255, 0, 0, 1);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 .content {
@@ -137,7 +138,7 @@ ul {
   padding: 20px;
   background: rgba(255, 255, 255, 1);
   border-radius: 5px;
-  padding-bottom:100px;
+  padding-bottom: 100px;
   text-align: justify;
 }
 
@@ -195,15 +196,103 @@ ul {
 }
 
 .bi-check2 {
-  color:green;
+  color: green;
   font-size: 1.3em;
   position: relative;
   bottom: -3px;
 }
 
 .bi-x {
-  color:red;
+  color: red;
   font-size: 1.5em;
   position: relative;
   bottom: -3px;
+}
+
+/* Image style to trigger pointer cursor */
+img {
+  cursor: zoom-in;
+  transition: 0.3s;
+}
+
+/* For the Modal (background) */
+img:hover {
+  opacity: 0.8;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 70%;
+  max-width: 70%;
+}
+
+#modal-caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
 }
