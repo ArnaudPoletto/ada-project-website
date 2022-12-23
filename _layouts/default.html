@@ -118,20 +118,20 @@
         Classifying sponsored videos is not a trivial task. We retrieved all the links from the video descriptions and classified the 1000 most common domains (by hand!) into a category and flagged them as sponsor-related or not.
       </p>
 
-      <img src="../assets/img/s_ns_ratio.svg" onclick="openModal(this);" alt="s_ns_ratio_png" width="41%" height="auto" style="margin-left:8%;" />
-      <img src="../assets/img/w_s_np_ratio.svg" onclick="openModal(this);" alt="w_s_np_ratio_png" width="49%" height="auto" />
+      <img src="../assets/img/s_ns_ratio.svg" onclick="openModal(this);" alt="Pie plot of sponsored domains in the top 1000" width="41%" height="auto" style="margin-left:8%;" />
+      <img src="../assets/img/w_s_np_ratio.svg" onclick="openModal(this);" alt="Pie plot of sponsored videos in the top 1000 domains" width="49%" height="auto" />
 
       <p>
         From these graphs, we notice that about a quarter of domains that come up in our analysis are sponsor-related, which represents more than two-thirds of the total number of videos on YouTube.
       </p>
 
-      <img src="../assets/img/top_10.svg" onclick="openModal(this);" alt="s_ns_ratio_png" width="100%" height="auto" />
+      <img src="../assets/img/top_10.svg" onclick="openModal(this);" alt="Pie and bar plot of top 10 categories of sponsored and non-sponsored domains" width="100%" height="auto" />
 
       <p>
         Every bar plot is related to the pie chart above itself. We notice that the sponsored domains and non-sponsored domains do not have the same distribution of categories; about half of sponsored domains are related to shops, agencies and video games. On the other hand, Media and Music are very present among non-sponsored domains.
       </p>
 
-      <img src="../assets/img/top_10_w.svg" onclick="openModal(this);" alt="s_ns_ratio_png" width="100%" height="auto" />
+      <img src="../assets/img/top_10_w.svg" onclick="openModal(this);" alt="Pie and bar plot of top 10 categories of sponsoring and non-sponsoring domains in videos" width="100%" height="auto" />
 
       <p>
         Taking a look at the data from another perspective, we now see the distribution of categories on videos. Before diving into the data, we did not expected sponsoring agencies to be so popular, but looking at the above pie chart, we see that more than a third of sponsored videos are sponsored by agencies!
@@ -143,7 +143,7 @@
         Agencies for monetization on YouTube are companies or organizations that help YouTube creators monetize their content, typically by connecting them with brands or advertizers who are interested in promoting their products or services. YouTubers generally choose an agency that aligns with their interests, goals and needs as creators.
       </p>
 
-      <img src="../assets/img/agencies.svg" onclick="openModal(this);" alt="s_ns_ratio_png" width="100%" height="auto"/>
+      <img src="../assets/img/agencies.svg" onclick="openModal(this);" alt="Pie plot of top 10 agencies" width="100%" height="auto"/>
       
       <p>
         This pie chart shows the top ten agencies that sponsor videos on YouTube. <i>rewardStyle</i>, <i>Po.st</i> and <i>Teespring</i> make up the top three, sponsoring more than 50% of all videos sponsored by agencies together.
@@ -254,7 +254,7 @@
       </p>
       
       <!-- center the image relative to the page -->
-      <img src="../assets/img/sponsor_categories.svg" onclick="openModal(this);" alt="evolution_sponsors" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
+      <img src="../assets/img/sponsor_categories.svg" onclick="openModal(this);" alt="Evolution of sponsor categories through time" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
 
       <p>
         We can slightly notice a subtle decrease in the overall number of sponsored videos at the beginning of each year. Indeed, This might be due to three main reasons: Firstly, the month of February has the least number of days in a year. Secondly, YouTubers or sponsors might be taking a break during the holiday season. Finally, the decrease might be accentuated by the sponsors being more active before the holiday season, as it is a great time to promote their products. 
@@ -264,7 +264,7 @@
         A strange peak appears on October 2018, which happens to be due to an education Indian channel <a href="https://www.youtube.com/@Doubtnut" target="_blank">Doubtnut</a>. They published an astonishing number of 32'000 videos in 3 days!
       </p>
 
-      <img src="../assets/img/sponsor_categories_scatter.svg" onclick="openModal(this);" alt="evolution_sponsors_scatter" width="175%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
+      <img src="../assets/img/sponsor_categories_scatter.svg" onclick="openModal(this);" alt="Scatter plot of number of videos per day for the top 10 sponsor categories" width="175%" height="auto" style="margin-left: -37.5%; margin-right: -37.5%"/>
 
       <p>
         The application and agencies seem to skyrocket! However, the other categories seem to decrease after a certain time TODOOOOOOOOOOOOOOOOOOOOOOOO
@@ -278,9 +278,9 @@
         As we might have anticipated, many of the videos are sponsored by brands closely related to their content. Agencies also have a great prevalence in all categories.
       </p>
 
-      <img src="../assets/img/sponsored_categories.svg" onclick="openModal(this);" alt="sponsored_categories" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
+      <img src="../assets/img/sponsored_categories.svg" onclick="openModal(this);" alt="Bar plot of number of videos per video and domain category" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
 
-      <img src="../assets/img/sponsored_ratio.svg" onclick="openModal(this);" alt="sponsored_ratio" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
+      <img src="../assets/img/sponsored_ratio.svg" onclick="openModal(this);" alt="Bar plot of number of videos and ratio of sponsored videos per video category" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
 
       <p>
         When looking at the ratio of sponsored to non-sponsored videos, we can see that the ranking is quite different. Except for the <i>Gaming</i> and <i>Nonprofit & Activism</i> categories, which both are the extreme ends of the spectrum, the ranking makes more sense. The <i>Gaming</i>, <i>Howto & Style</i> and <i>People & Blogs</i> categories have the highest ratio of sponsored videos. <i>Sports</i> and <i>Nonprofit & Activism</i> have the lowest ratio of sponsored videos.
@@ -290,7 +290,7 @@
         We then explore the data with an observational study, where we defined the set of treated videos as the sponsored ones. The graph below shows the distribution of interesting features to compare between the groups after a maximum matching procedure.
       </p>
 
-      <img src="../assets/img/bootstrap_matched_sp_nsp.svg" onclick="openModal(this);" alt="bootstrap_matched_sp_nsp" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
+      <img src="../assets/img/bootstrap_matched_sp_nsp.svg" onclick="openModal(this);" alt="Histograms of mean of features for sponsor-matched entries" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
 
       <p>
         Overall, sponsored videos have:
@@ -304,7 +304,7 @@
         Using the same approach, we now define the treated group as the videos that are sponsored by an agency. The control group contains sponsored videos not sponsored by an agency. The graph below shows the distribution of the same interesting features to compare.
       </p>
 
-      <img src="../assets/img/bootstrap_matched_ag_nag.svg" onclick="openModal(this);" alt="bootstrap_matched_ag_nag" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
+      <img src="../assets/img/bootstrap_matched_ag_nag.svg" onclick="openModal(this);" alt="Histograms of mean of features for agency-matched entries" width="150%" height="auto" style="margin-left: -25%; margin-right: -25%"/>
 
       <p>
         How interesting! Videos sponsored by agencies have:
@@ -320,7 +320,7 @@
         To figure out if agency sponsorship is the secret sauce for YouTube success, we put it to the test with a regression analysis (gray fits do not have statictical significance).
       </p>
 
-      <img src="../assets/img/regression_matched_ag.png" onclick="openModal(this);" alt="regression_matched_ag" width="125%" height="auto" style="margin-left: -12.5%; margin-right: -12.5%"/>
+      <img src="../assets/img/regression_matched_ag.png" onclick="openModal(this);" alt="Plot of linear regression on agency-matched pairs" width="125%" height="auto" style="margin-left: -12.5%; margin-right: -12.5%"/>
 
       <p>  
         Our analysis still shows that videos sponsored by agencies tend to perform better on YouTube, with higher levels of likes, fewer dislikes, and more reactions. This suggests that sponsorship by an agency can significantly impact the popularity and engagement of a video. It's possible that agencies, with their professional expertise and experience in marketing and advertising, are able to help YouTubers create content that resonates more with viewers and effectively targets the right audience. In short, partnering with an agency could be the key to YouTube fame!
