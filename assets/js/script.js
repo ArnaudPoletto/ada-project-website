@@ -36,6 +36,8 @@ for (var i = 0; i < TOTAL_GRAPH_STATES; i++) {
 // EVENTS
 
 window.onload = function() {
+    document.getElementById("start_play_icon").style.display = none;
+    document.getElementById("start_play_play").style.display = none;
     window.scroll(0, 0);
 
     waitForElement("#graph-container-ss", function() {
@@ -44,6 +46,9 @@ window.onload = function() {
                 waitForElement("#graph-container-clco", function() {
                     waitForElement("#graph-container-mocl", function() {
                         setGraphState(graph_state);
+                        document.getElementById("start_play_icon").style.display = block;
+                        document.getElementById("start_play_play").style.display = block;
+                        document.getElementById("loader").style.display = none;
                     });
                 });
             });
