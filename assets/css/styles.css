@@ -231,6 +231,13 @@ body {
   bottom: 10%;
 }
 
+#logo {
+  position: absolute;
+  bottom: 60px;
+  right: 20px;
+  cursor: pointer;
+}
+
 /* Image style to trigger pointer cursor */
 img {
   cursor: zoom-in;
