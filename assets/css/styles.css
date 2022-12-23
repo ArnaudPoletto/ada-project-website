@@ -228,7 +228,7 @@ body {
   font-size: large;
   color: #ffffff;
   position: absolute;
-  bottom: 10%;
+  bottom: 70px;
 }
 
 #logo {
@@ -236,6 +236,10 @@ body {
   bottom: 60px;
   right: 20px;
   cursor: pointer;
+}
+
+.no-decoration {
+  text-decoration: none;
 }
 
 /* Image style to trigger pointer cursor */
