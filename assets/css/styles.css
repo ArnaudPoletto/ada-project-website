@@ -4,6 +4,11 @@ body {
   font-size: 120%;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 #loader {
   color: rgba(255, 255, 255, 1) !important;
   width: 5rem;

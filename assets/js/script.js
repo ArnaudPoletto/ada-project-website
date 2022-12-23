@@ -36,9 +36,6 @@ for (var i = 0; i < TOTAL_GRAPH_STATES; i++) {
 // EVENTS
 
 window.onload = function() {
-    $("#loader").animate({opacity: 1}, 200);
-    document.getElementById("loader").style.display = "block";
-
     window.scroll(0, 0);
 
     waitForElement("#graph-container-ss", function() {
@@ -80,6 +77,7 @@ function waitForElement(elementPath, callBack){
 function playVideo() {
     var height = window.innerHeight;
     window.scrollBy(0, height);
+    document.body.classList.remove("stop-scrolling");
     started_video = true;
     ended_video = false;
 }
