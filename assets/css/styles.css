@@ -70,6 +70,7 @@ ul {
   height: 100%;
   object-fit: cover;
   background: rgba(0, 0, 0, 1);
+  position: absolute;
 }
 
 .end-video-content {
@@ -109,6 +110,7 @@ ul {
   width: 0%;
   height: 5px;
   background: rgba(255, 0, 0, 1);
+  border-radius: 50px;
 }
 
 #time-bar-empty {
@@ -117,7 +119,8 @@ ul {
   left: 20px;
   width: calc(100% - 40px);
   height: 5px;
-  background: rgba(150, 150, 150, 0.5)
+  background: rgba(150, 150, 150, 0.5);
+  border-radius: 50px;
 }
 
 #time-dot {
@@ -207,6 +210,15 @@ ul {
   font-size: 1.5em;
   position: relative;
   bottom: -3px;
+}
+
+#maintainers {
+  width: 100%;
+  text-align: center;
+  font-size: large;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10%;
 }
 
 /* Image style to trigger pointer cursor */
