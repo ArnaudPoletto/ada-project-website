@@ -11,7 +11,7 @@ var GRAPH_STATES = [
 ];
 var GRAPHE_STATE_NAMES = [
     "Sponsor categories", 
-    "Betweeness centrality", 
+    "Betweeness centrality",
     "Closeness centrality", 
     "Clustering coefficient", 
     "Modularity class"
