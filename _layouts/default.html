@@ -65,14 +65,18 @@
   <body>
     <div class="video">
       <div class="video-content">
-        <div class="spinner-border text-light" role="status">
+        <div class="spinner-border text-light" id="loader" role="status">
           <span class="sr-only"></span>
         </div>
         <div class="video-title">This Video is Sponsored by ADA! An Analysis of Sponsorships on YouTube</div>
-        <div class="video-play" id="start_play" onclick="playVideo()"><i class="bi bi-play-fill"></i></div>
-        <div class="video-click-msg" id="start_play">Click to play!</div>
+        <div class="video-play" id="start_play_icon" onclick="playVideo()"><i class="bi bi-play-fill"></i></div>
+        <div class="video-click-msg" id="start_play_play">Click to play!</div>
       </div>
     </div>
+    
+    <!-- JS -->
+    <script src="./assets/js/direct.js"></script>
+
     <div id="imgModal", class="modal">
       <span class="close">&times;</span>
       <img class="modal-content" id="img01">

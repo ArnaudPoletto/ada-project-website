@@ -36,8 +36,9 @@ for (var i = 0; i < TOTAL_GRAPH_STATES; i++) {
 // EVENTS
 
 window.onload = function() {
-    document.getElementById("start_play_icon").style.display = none;
-    document.getElementById("start_play_play").style.display = none;
+    $("#loader").animate({opacity: 1}, 200);
+    document.getElementById("loader").style.display = "block";
+
     window.scroll(0, 0);
 
     waitForElement("#graph-container-ss", function() {
@@ -46,9 +47,13 @@ window.onload = function() {
                 waitForElement("#graph-container-clco", function() {
                     waitForElement("#graph-container-mocl", function() {
                         setGraphState(graph_state);
-                        document.getElementById("start_play_icon").style.display = block;
-                        document.getElementById("start_play_play").style.display = block;
-                        document.getElementById("loader").style.display = none;
+                        $("#start_play_icon").animate({opacity: 1}, 200);
+                        $("#start_play_play").animate({opacity: 1}, 200);
+                        $("#loader").animate({opacity: 0}, 200, function() {
+                            document.getElementById("loader").style.display = "none";
+                            document.getElementById("start_play_icon").style.display = "block";
+                            document.getElementById("start_play_play").style.display = "block";
+                        });
                     });
                 });
             });

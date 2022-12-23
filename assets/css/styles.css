@@ -4,6 +4,13 @@ body {
   font-size: 120%;
 }
 
+#loader {
+  color: rgba(255, 255, 255, 1) !important;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+}
+
 .ul-none {
   list-style-type: none;
 }
