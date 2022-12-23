@@ -253,8 +253,10 @@ img:hover {
 .modal-content {
   margin: auto;
   display: block;
-  width: 70%;
-  max-width: 70%;
+  width: 90vw;
+  object-fit: contain;
+  height: auto;
+  max-height: 90%;
 }
 
 #modal-caption {
