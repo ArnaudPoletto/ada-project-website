@@ -8,6 +8,16 @@ body {
   list-style-type: none;
 }
 
+.github-link {
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.github-link:hover {
+  color: red;
+  transition: all 0.2s ease-in-out;
+}
+
 .video {
   width: 100%;
   height: 100%;
